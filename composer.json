@@ -1,9 +1,9 @@
 {
-	"name": "lfischer/open-weather-map-api",
+	"name": "wackyedd/open-weather-map-api",
 	"type": "library",
 	"description": "A simple PHP library for querying the Open Weather Map API.",
 	"keywords": ["API", "weather"],
-	"homepage": "https://github.com/leonardfischer/open-weather-map-api",
+	"homepage": "https://github.com/wackyedd/open-weather-map-api",
 	"license": "MIT",
 	"authors": [{
 		"name": "Leonard Fischer",
@@ -12,8 +12,8 @@
 		"role": "Developer"
 	}],
     "support": {
-        "issues": "https://github.com/leonardfischer/open-weather-map-api/issues",
-        "source": "https://github.com/leonardfischer/open-weather-map-api"
+        "issues": "https://github.com/wackyedd/open-weather-map-api/issues",
+        "source": "https://github.com/wackyedd/open-weather-map-api"
     },
 	"require": {
 		"php": ">=5.4.0"
