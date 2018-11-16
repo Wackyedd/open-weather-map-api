@@ -58,4 +58,17 @@ class API extends Request
 	{
 		return $this->fetch(['q' => $city . ($countryCode !== null ? ',' . $countryCode : '')])->getResponseArray();
 	} // function
+	/**
+	 * Retrieves weather data by IP Address by making a call to the ipapi API.
+	 *
+	 * @param string $city
+	 * @param string $countryCode
+	 * @return array
+	 */
+	public function getByIp ($ip)
+	{
+		$lat = file_get_contents('https://ipapi.co/' . $ip . '/latitude/');
+		$long = file_get_contents('https://ipapi.co/' . $ip . '/longitude/');
+		return $this->fetch(['lat' => $lat, 'lon' => $long])->getResponseArray();
+	} // function
 } // class
