@@ -5,7 +5,7 @@ namespace lfischer\openWeatherMap;
 /**
  * Basic Weather API class to execute predefined requests.
  *
- * @author Leonard Fischer <post@leonard.fischer.de>
+ * @author Leonard Fischer <post@leonard.fischer.de> - Contributor: Wackyedd
  */
 class API extends Request
 {
